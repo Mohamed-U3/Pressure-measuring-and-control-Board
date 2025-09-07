@@ -1,0 +1,2 @@
+# 3S-parallel-Lithium-ion-Battery-charging-circuit
+With active balancing circuit in the future (v2.0 ISA), the circuit will be able to charge multi-cell connected in parallel and balance between them while discharging.
