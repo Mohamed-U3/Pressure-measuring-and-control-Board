@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.75
         }
       },
       "diff_pair_dimensions": [
@@ -619,7 +619,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "Datasheets/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -634,6 +634,10 @@
     [
       "e63068d3-1cb6-49bd-8197-4e35c9e01a64",
       "Root"
+    ],
+    [
+      "0931b90f-590f-45a0-a972-50b50e6a22df",
+      "MOSFETs"
     ]
   ],
   "text_variables": {}
