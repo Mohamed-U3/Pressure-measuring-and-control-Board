@@ -4229,16 +4229,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 63.5) (xy 66.04 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bab9b43-813f-45fb-a564-7bef1c00f3de")
-	)
-	(wire
-		(pts
 			(xy 247.65 26.67) (xy 245.11 26.67)
 		)
 		(stroke
@@ -4536,6 +4526,16 @@
 			(type default)
 		)
 		(uuid "3ab49662-7e54-41e8-ae2e-f1e372dbeab6")
+	)
+	(wire
+		(pts
+			(xy 55.88 63.5) (xy 66.04 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b98052e-fda1-415c-aff3-3a4288852d1d")
 	)
 	(wire
 		(pts
@@ -4846,16 +4846,6 @@
 			(type default)
 		)
 		(uuid "6df30ae4-18ad-4d6e-9eee-43135b533b78")
-	)
-	(wire
-		(pts
-			(xy 63.5 58.42) (xy 66.04 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8f516a-c169-4f05-9940-f0010b21d7cf")
 	)
 	(wire
 		(pts
@@ -5259,6 +5249,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 58.42) (xy 66.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aabc59d5-099e-46f3-ad05-87cfde6a3b58")
+	)
+	(wire
+		(pts
 			(xy 207.01 33.02) (xy 209.55 33.02)
 		)
 		(stroke
@@ -5459,6 +5459,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 59.69) (xy 55.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09eaba6-2ee3-4650-ae5c-8e7296ba2192")
+	)
+	(wire
+		(pts
 			(xy 116.84 161.29) (xy 127 161.29)
 		)
 		(stroke
@@ -5559,13 +5569,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 66.04 60.96)
+			(xy 63.5 60.96) (xy 66.04 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da62463f-e487-4ec4-acaf-ced948b69805")
+		(uuid "dbc1490a-4d95-4121-8c03-7d13fc4424cd")
 	)
 	(wire
 		(pts
@@ -5823,7 +5833,7 @@
 	)
 	(global_label "RX"
 		(shape input)
-		(at 62.23 63.5 180)
+		(at 63.5 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5833,7 +5843,7 @@
 		)
 		(uuid "0a181da1-0003-4331-a586-8f5d26c687d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.7653 63.5 0)
+			(at 58.0353 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6163,7 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 62.23 60.96 180)
+		(at 63.5 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6163,7 +6173,7 @@
 		)
 		(uuid "44187a99-10ca-45ee-b48a-6e4660edebd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.0677 60.96 0)
+			(at 58.3377 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +7289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 200.66 36.322 90)
 			(effects
 				(font
@@ -7346,7 +7356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 261.62 34.798 90)
 			(effects
 				(font
@@ -7413,7 +7423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 25.908 180.34 90)
 			(effects
 				(font
@@ -8619,7 +8629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 29.718 180.34 90)
 			(effects
 				(font
@@ -9363,7 +9373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00276_1x02_P5.00mm_Vertical"
 			(at 35.56 91.44 0)
 			(effects
 				(font
@@ -9430,7 +9440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 114.808 180.34 90)
 			(effects
 				(font
@@ -10021,7 +10031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 118.618 180.34 90)
 			(effects
 				(font
@@ -10168,7 +10178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 261.62 39.878 90)
 			(effects
 				(font
@@ -10631,7 +10641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 260.35 57.658 90)
 			(effects
 				(font
@@ -11182,7 +11192,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 213.36 28.448 90)
 			(effects
 				(font
@@ -11587,7 +11597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 200.66 38.862 90)
 			(effects
 				(font
@@ -11918,7 +11928,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 63.5 58.42 0)
+		(at 55.88 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11926,7 +11936,7 @@
 		(dnp no)
 		(uuid "f71a82cd-4079-4186-b198-abd190a9cccb")
 		(property "Reference" "#PWR022"
-			(at 63.5 62.23 0)
+			(at 55.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11935,7 +11945,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 63.5 54.356 0)
+			(at 55.88 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11943,7 +11953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 58.42 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11952,7 +11962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 58.42 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11961,7 +11971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 63.5 58.42 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12073,7 +12083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 200.66 41.402 90)
 			(effects
 				(font
@@ -12116,7 +12126,7 @@
 		)
 	)
 	(sheet
-		(at 50.8 85.09)
+		(at 20.32 113.03)
 		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12132,7 +12142,7 @@
 		)
 		(uuid "0931b90f-590f-45a0-a972-50b50e6a22df")
 		(property "Sheetname" "MOSFETs"
-			(at 50.8 84.3784 0)
+			(at 20.32 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12141,7 +12151,7 @@
 			)
 		)
 		(property "Sheetfile" "MOSFETs.kicad_sch"
-			(at 50.8 95.8346 0)
+			(at 20.32 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
