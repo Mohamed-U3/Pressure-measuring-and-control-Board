@@ -60,15 +60,23 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|115735000|43900000|55bc4e6e-48c7-4ecf-959b-878745df8054|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|115735000|32175000|55bc4e6e-48c7-4ecf-959b-878745df8054|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|115735000|72000000|16e4ca3d-23c0-4d5c-9646-46177e6415a0|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|115735000|56000000|16e4ca3d-23c0-4d5c-9646-46177e6415a0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|50000000|30500151|ab5423e1-84f0-4ef5-9586-92f13990501a|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "lib_footprint_mismatch|75400000|32950000|a7bc599b-259b-4bea-9331-b2894e9ca9f5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|89300151|37200000|ca37bc17-4f43-4092-8830-6081f02cab46|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -202,7 +210,8 @@
       ],
       "track_widths": [
         0.0,
-        0.8
+        0.8,
+        1.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -265,6 +274,10 @@
       ],
       [
         "lib_symbol_issues|508000|1943100|f496333c-81af-40a1-9cb3-e1e010ddcd2c|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|850900|1143000|e324fee6-64ea-4c28-a62f-0b3d9aa10f08|00000000-0000-0000-0000-000000000000|||",
         ""
       ]
     ],
@@ -589,12 +602,96 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTERNATIVE",
+          "name": "ALTERNATIVE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CERTIFICATE",
+          "name": "CERTIFICATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "LINK",
+          "name": "LINK",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
