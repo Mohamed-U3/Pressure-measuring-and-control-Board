@@ -64,10 +64,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|115735000|56000000|16e4ca3d-23c0-4d5c-9646-46177e6415a0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|50000000|30500151|ab5423e1-84f0-4ef5-9586-92f13990501a|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -145,7 +141,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.4,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -210,6 +206,7 @@
       ],
       "track_widths": [
         0.0,
+        0.4,
         0.8,
         1.5
       ],
@@ -267,7 +264,20 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_issues|1397000|1943100|681ec447-271d-4681-987b-ea182b579f80|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|508000|1943100|f496333c-81af-40a1-9cb3-e1e010ddcd2c|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|850900|1143000|e324fee6-64ea-4c28-a62f-0b3d9aa10f08|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -730,6 +740,14 @@
     [
       "0931b90f-590f-45a0-a972-50b50e6a22df",
       "MOSFETs"
+    ],
+    [
+      "8c39a08b-2ed5-4b62-944b-d223b99a78dc",
+      "Automatic Load Switchover"
+    ],
+    [
+      "660927f7-44fc-43f4-bdfe-f85d33a467cc",
+      "Battery Charger"
     ]
   ],
   "text_variables": {}
