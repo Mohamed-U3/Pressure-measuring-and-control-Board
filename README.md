@@ -133,4 +133,4 @@ Schematic Rev v1.0, dated 2025‑09‑07.
 
 The project combines reliable power‑path control, isolated high‑current drivers, and precision sensing into a compact ESP8266 platform for pressure‑based automation tasks.
 
-<div style="text-align: center">⁂</div>
+<div align="center">⁂</div>
